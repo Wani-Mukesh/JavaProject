@@ -5,9 +5,13 @@ public class MyFirstJavaProgram {
 		System.out.println("Hello World");
 		for (int i = 0; i < 10; i++) {
 			if(i==4)
+			{
 				break;
+			}
 			else
-				System.out.println(i);					
+			{
+				System.out.println(i);
+			}
 		}		
 	}
 }
